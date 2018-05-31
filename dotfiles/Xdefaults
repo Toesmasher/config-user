@@ -6,26 +6,33 @@ URxvt.background: rgba:0000/0000/0000/5555
 URxvt.foreground: white
 
 #! Black + DarkGrey
-#*color0:  #000000
-#*color8:  #555753
+#URxvt.color0:  #000000
+#URxvt.color8:  #555753
 ! DarkRed + Red
-#*color1:  #ff5555
-#*color9:  #ff6d6d
+#URxvt.color1:  #ff5555
+#URxvt.color9:  #ff6d6d
 ! DarkGreen + Green
-#*color2:  #93d44f
-#*color10: #c8e7a8
+#URxvt.color2:  #93d44f
+#URXvt.color10: #c8e7a8
 ! DarkYellow + Yellow
-#*color3:  #eab93d
-#*color11: #ffc123
+#URxvt.color3:  #eab93d
+#URxvt.color11: #ffc123
 ! DarkBlue + Blue
-*color4:  #4475b4
-*color12: #6e98f6
+URxvt.color4:  #4475b4
+URxvt.color12: #6e98f6
 ! DarkMagenta + Magenta
-#*color5:  #ce5c00
+#URxvt.color5:  #ce5c00
 #*color13: #f57900
 !DarkCyan + Cyan (both not tango)
-#*color6:  #0086b3
-#*color14: #33ccff
+#URxvt.color6:  #0086b3
+#URxvt.color14: #33ccff
 ! LightGrey + White
-#*color7:  #cccccc
-#*color15: #ffffff
+#URxvt.color7:  #cccccc
+#URxvt.color15: #ffffff
+
+Xft.autohint: 1
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+Xft.dpi: 96

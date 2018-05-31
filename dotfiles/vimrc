@@ -6,6 +6,8 @@ set smartindent
 set number
 set hlsearch
 
+colorscheme afterglow
+
 map <C-l> <C-]>
 
 let g:airline#extensions#tabline#enabled=1
