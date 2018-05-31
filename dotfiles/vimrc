@@ -1,0 +1,13 @@
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+
+set number
+set hlsearch
+
+map <C-l> <C-]>
+
+let g:airline#extensions#tabline#enabled=1
+let g:airline_theme='biogoo'
+let g:airline_powerline_fonts=1

@@ -1,0 +1,31 @@
+URxvt.font: xft:Hack:size=10
+#URxvt.font: xft:Noto Mono for Powerline:size=12
+URxvt.scrollBar: false
+URxvt.depth: 32
+URxvt.background: rgba:0000/0000/0000/5555
+URxvt.foreground: white
+
+#! Black + DarkGrey
+#*color0:  #000000
+#*color8:  #555753
+! DarkRed + Red
+#*color1:  #ff5555
+#*color9:  #ff6d6d
+! DarkGreen + Green
+#*color2:  #93d44f
+#*color10: #c8e7a8
+! DarkYellow + Yellow
+#*color3:  #eab93d
+#*color11: #ffc123
+! DarkBlue + Blue
+*color4:  #4475b4
+*color12: #6e98f6
+! DarkMagenta + Magenta
+#*color5:  #ce5c00
+#*color13: #f57900
+!DarkCyan + Cyan (both not tango)
+#*color6:  #0086b3
+#*color14: #33ccff
+! LightGrey + White
+#*color7:  #cccccc
+#*color15: #ffffff
